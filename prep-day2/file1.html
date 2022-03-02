@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" scalelable="no">
+    <title>Document</title>
+    <style>
+        .gallery-row {
+  width: 800px;
+  background-color: blue;
+  .list {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      width: 100%;
+      .list__item {
+        min-width: 220px;
+        height: 220px;
+        .list__thumbnail {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+}
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            <div class="gallery-row">
+                <ul class="list">
+                  <div class="list__item">
+                    <img class="list__thumbnail" style="visibility: hidden;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NYCS-bull-trans-1.svg/1024px-NYCS-bull-trans-1.svg.png">
+                  </div>
+                  //and four more images below
+                </ul>
+              </div>
+        </p>
+    </div>
+</body>
+</html>
